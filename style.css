@@ -30,9 +30,11 @@ a:active {
 h1 {
     font-family: "Courier New", Courier, monospace;
     font-weight: normal;
+    word-spacing: -.2em;
 }
 
 h2 {
     font-family: "Courier New", Courier, monospace;
     font-weight: normal;
+    word-spacing: -.2em;
 }
