@@ -38,3 +38,7 @@ h2 {
     font-weight: normal;
     word-spacing: -.2em;
 }
+
+.info {
+    padding-top: .5em;
+}
