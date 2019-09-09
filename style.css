@@ -39,6 +39,16 @@ h2 {
     word-spacing: -.2em;
 }
 
+h3 {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: normal;
+    word-spacing: -.2em;
+}
+
 .info {
     padding-top: .5em;
+}
+
+.error {
+    text-align: center;
 }
