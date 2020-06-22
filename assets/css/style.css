@@ -43,6 +43,18 @@ html {
   scroll-behavior: smooth;
 }
 
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:active {
+  color:black;
+}
+
 .down-button {
   color: white;
 }
@@ -50,3 +62,77 @@ html {
 .down-button:hover {
   color: white;
 }
+
+.resume-education {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #82909c;
+  position: relative;
+}
+
+.resume-education::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #82909c;
+  border: 2px solid #82909c;
+}
+
+.resume-work {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #ac4313;
+  position: relative;
+}
+
+.resume-work::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #ac4313;
+  border: 2px solid #ac4313;
+}
+
+.resume-org {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #1f73bd;
+  position: relative;
+}
+
+.resume-org::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #1f73bd;
+  border: 2px solid #1f73bd;
+}
+
+.resume-summary {
+  margin-left: 20px;
+  font-size: large;
+}
+
+.resume-work h5 {
+margin-bottom: 1px;
+}
+
+.resume-education h5 {
+margin-bottom: 1px;
+}
+
+.resume-org h5 {
+  margin-bottom: 1px;
+  }

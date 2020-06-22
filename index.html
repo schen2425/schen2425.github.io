@@ -7,7 +7,7 @@
     <!-- Info About My Page -->
     <title>Steven Chen</title>
     <meta name="description" content="Hello, I'm Steven Chen! Currently a Computer Science Student at Georgia Tech!">
-    <meta name="keywords" content="Steven Chen, Gatech, Georgia Tech, Software Engineer, Steven, Chen, Georgia Institute of Technology">
+    <meta name="keywords" content="Steven Chen, Gatech, Georgia Tech, Software Engineer, Steven, Chen, Georgia Institute of Technology, software engineer">
 
     <!-- Bootstrap and Style Stuff -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -16,6 +16,7 @@
 </head>
 
 <body id="home">
+    <!-- TODO: Fix scrolling effect on Safari -->
 
     <!-- Navbar Stuff -->
     <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
@@ -50,6 +51,7 @@
     </nav>
 
     <!-- Welcome Screen -->
+    <!-- TODO: Get typing text -->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="jumbotron-text">
@@ -63,7 +65,7 @@
     </div>
 
     <!-- About Me -->
-    <!-- TODO: Fix when resizing text gets jumbled, pick color for progress bars -->
+    <!-- TODO: Fix when resizing text gets jumbled, pick color for progress bars, make email mailto? -->
     <div id="about">
         <div class="container">
             <div class="card shadow-lg">
@@ -80,7 +82,7 @@
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item"><b>Name:</b> Steven Chen</li>
                                     <li class="list-group-item"><b>Email:</b> &#099;&#111;nta&#099;&#116;&#115;te&#118;&#101;n&#099;&#104;e&#110;&#064;gma&#105;&#108;.&#099;om</li>
-                                    <li class="list-group-item"><b>LinkedIn:</b> Steven Chen</li>
+                                    <li class="list-group-item"><b>LinkedIn: </b><a href="https://linkedin.com/in/stevenchen8"><i>linkedin.com/in/stevenchen8</i></a></li>
                                     <li class="list-group-item"><b>Location:</b> Atlanta, Georgia</li>
                                 </ul>
                             </div>
@@ -142,18 +144,147 @@
                         </div>
                     </div>
                 -->
-                    
                 </div>
-
             </div>
         </div>
     </div>
 
+    <br>
+    <br>
+    <br>
+
     <!-- Resume -->
+    <!-- TODO: Fix text alignment, fix bullet point alignmnet -->
     <div id="experience">
-        <H1>Resume</H1>
+        <div class="container">
+            <div class="row" style="font-size: xxx-large;">
+                <div style="margin-left: auto; margin-right: auto;">
+                    <b>Experience</b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="resume-summary">
+                        <h3><b>Education</b></h3>
+                    </div>
+                    <div class="resume-education">
+                        <h5>Georgia Institute of Technology</h5>
+                        <span><i>Atlanta, Georgia</i></span><span class="float-right">2018 - Present</span>
+                        <p>
+                            <ul>
+                                <li>BS Computer Science</li>
+                                <li>Concentration in Devices and Information Internetworks</li>
+                                <li>GPA: 3.81</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="resume-education">
+                        <h5>Georgia Tech Lorraine | Study Abroad</h5>
+                        <span><i>Metz, France</i></span><span class="float-right">Jan 2020 - May 2020</span>
+                    </div>
+                    <div class="resume-summary">
+                        <h3><b>Work Experience</b></h3>
+                    </div>
+                    <div class="resume-work">
+                        <h5>Travelers Insurance</h5>
+                        <span><i>Hartford, Connecticut | Virtual</i></span><span class="float-right">Jun 2020 - Present</span>
+                        <p>Software | TLDP Intern</p>
+                        <p>
+                            <ul>
+                                <li>Implemented dashboard for data analytics using MongoDB and Qlikview</li>
+                                <li>Fixed UI bugs in Node and Vue.js</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class='col-lg-6'>
+                    <div class="resume-work">
+                        <h5>Itential</h5>
+                        <span><i>Atlanta, Georgia</i></span><span class="float-right">May 2019 - Aug 2019</span>
+                        <p>Software Engineering Intern</p>
+                        <p>
+                            <ul>
+                                <li>Created Bash script that automated filesystem setup and product configuration</li>
+                                <li>Implemented metrics API endpoint w/ Prometheus client that is scraped for data visualization</li>
+                                <li>Fixed UI and backend bugs involving text parsing, Regex, and React components</li>
+                                <li>Utilized Vagrant and VirtualBox VMs to quality test/certify parts of product</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="resume-summary">
+                        <h3><b>Organizations</b></h3>
+                    </div>
+                    <div class="resume-org">
+                        <h5>The Makery</h5>
+                        <span><i>Georgia Tech</i></span><span class="float-right">Aug 2018 - Present</span>
+                        <p><span><i>Vice President</i></span><span class="float-right">Aug 2019 - Dec 2019</span></p>
+                        <p>
+                            <ul>
+                                <li>Lead and organize project meetings on robotics and software integration</li>
+                                <li>Organize and plan workshops on Arduinos/electronics for over 20 members</li>
+                                <li>Create operating budget with exec board</li>
+                                <li>Act as liaison between club and school’s student organization board</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="resume-org">
+                        <h5>GT Greyhat</h5>
+                        <span><i>Georgia Tech</i></span><span class="float-right">Aug 2018 - Present</span>
+                        <p><span><i>Website Admin</i></span><span class="float-right">Aug 2019 - Dec 2019</span></p>
+                        <p>
+                            <ul>
+                                <li>Maintain club website by updating HTML/CSS code on GitHub</li>
+                                <li>Plan events and workshops on cybersecurity with exec board</li>
+                                <li>Oversee digital registration of new members</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <br>
+    <br>
+    <br>
     
+    <!-- Projects -->
+    <!-- TODO: Finish Section with Carosoul? -->
+    <div id="projects">
+        <div class="container">
+            <div class="row" style="font-size: xxx-large;">
+                <div style="margin-left: auto; margin-right: auto;">
+                    <b>Projects</b>
+                </div>
+            </div>
+            <div class="card shadow-lg">
+                <div class="card-body">
+                    <div class="row" style="font-size: x-large;">
+                        <div style="margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;">
+                            <b>Under Construction :)</b>
+                        </div>
+                    </div>
+                    <div class="row" style="font-size: large;">
+                        <div style="margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;">
+                            <b><p style="text-align: center;">Check out my Github to see my projects in the meantime!</b></p> 
+                        </div>
+                    </div>
+                    <div class="row" style="font-size: large;">
+                        <div style="margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;">
+                            <a href="https://github.com/schen2425"><i class="fa fa-github-square" style="font-size: 5em;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            CONTACT
+        </div>
+    </div>
       
     
 
