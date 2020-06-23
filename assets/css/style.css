@@ -39,8 +39,9 @@
 .navbar-b .navbar-brand {
   color: #fff;
 }
-html {
-  scroll-behavior: smooth;
+
+a:link {
+  color: black;
 }
 
 a:visited {
@@ -56,11 +57,11 @@ a:active {
 }
 
 .down-button {
-  color: white;
+  color: white !important;
 }
 
 .down-button:hover {
-  color: white;
+  color: white !important;
 }
 
 .resume-education {
@@ -135,4 +136,45 @@ margin-bottom: 1px;
 
 .resume-org h5 {
   margin-bottom: 1px;
-  }
+}
+
+footer {
+  text-align: center;
+}
+
+.navbar-expand-md.scrolled {
+  background-color: white !important;
+  transition: background-color 200ms linear;
+  border: solid;
+  border-width: 2px;
+  border-color: transparent;
+  border-bottom-color: black !important;
+}
+
+.navbar-expand-md.scrolled .nav-link {
+  color: black;
+}
+
+.navbar-brand.scrolled {
+  color: black;
+}
+
+.navbar-toggler.scrolled span{
+  display: block;
+  background-color: black;
+  height: 3px;
+  width: 25px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  transform: rotate(0deg);
+  left: 0;
+  opacity: 1;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 40px;
+}
