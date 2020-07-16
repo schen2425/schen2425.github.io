@@ -1,3 +1,4 @@
+// Changes the navbar color when scrolling
 $(function () {
     $(document).scroll(function () {
         var $nav = $(".navbar-expand-md");
@@ -9,6 +10,7 @@ $(function () {
     });
 });
 
+// Creates animated scrolling effect
 $('a[href*="#"]')
 // Remove links that don't actually link to anything
 .not('[href="#"]')
@@ -39,3 +41,7 @@ $('a[href*="#"]')
     } // End if
 });
 
+// Collapse navbar after link click
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
