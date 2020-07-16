@@ -42,6 +42,6 @@ $('a[href*="#"]')
 });
 
 // Collapse navbar after link click
-$('.navbar-nav>li>a').on('click', function(){
+$('.js-scroll').on("click", function() {
     $('.navbar-collapse').collapse('hide');
 });
